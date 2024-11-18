@@ -1,0 +1,138 @@
+:root {
+  --base-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --base-letter-spacing: 0.02em;
+  --color-iris: #4d5ae5;
+  --color-hover: #404bbf;
+  --color-secondary: #2e2f42;
+  --color-white: #ffffff;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --letter-spacing-secondary: 0.04em;
+  --color-primary: #434455;
+  --color-cloud: #f4f4fd;
+  --indent-xs: 4px;
+  --indent-s: 8px;
+  --indent-m: 16px;
+  --indent-l: 32px;
+  --indent-xl: 48px;
+  --indent-xxl: 72px;
+}
+
+body {
+  color: var(--color-primary);
+  font-family: var(--base-font-family);
+  font-size: 16px;
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--base-letter-spacing);
+  line-height: 1.5;
+  background-color: var(--color-white);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.action,
+button {
+  background-color: var(--color-iris);
+  color: var(--color-white);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-secondary);
+  line-height: inherit;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--color-hover);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--color-hover);
+}
+
+.page-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--color-white);
+  letter-spacing: var(--base-letter-spacing);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: var(--base-letter-spacing);
+  text-transform: capitalize;
+  color: var(--color-secondary);
+}
+
+.card-title {
+  color: var(--color-secondary);
+  font-size: 20px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.2;
+  letter-spacing: var(--base-letter-spacing);
+}
+
+.thumbnail-section {
+  background-color: var(--color-secondary);
+}
+
+.team-section {
+  background-color: var(--color-cloud);
+}
+
+.team-section .cards-list-item {
+  background-color: var(--color-white);
+}
+
+.nav-item {
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-medium);
+}
+
+.nav-item-link {
+  color: var(--color-secondary);
+}
+
+.footer {
+  background-color: var(--color-secondary);
+}
+
+.header-logo,
+.footer-logo {
+  color: var(--color-iris);
+  font-family: var(--secondary-font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.17;
+}
+
+.footer-logo span,
+.footer .footer-text {
+  color: var(--color-cloud);
+}
+
+.header-logo span {
+  color: var(--color-secondary);
+}
